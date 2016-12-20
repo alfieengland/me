@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #030204;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+}
+
+#banner {
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+}
+
+#bannertext {
+	position: relative;
+	height: 100vh;
+	text-align: center;
+	color: white;
+}
+
+#bannertext a {
+	color: white;
+	display: block;
+	margin-top: 18vh;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	font-size: 200%;
+	transition: all 0.2s;
+}
+
+#bannertext a:hover {
+	transform: scale(1.5);
+}
+
+#alfieengland {
+	margin-top: 42vh;
+	width: 70%;
+}
+
+div.content {
+	height: 100vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	color: #666;
+}
+
+div.content h1, h2 {
+	font-weight: 300;
+}
+
+div.content h3 {
+	font-weight: 300;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+div.content p {
+	font-weight: 200;
+	font-size: 100%;
+}
+
+div.about {
+	padding-top: 50px;
+}
+
+#projectsheading {
+	padding-top: 50px;
+}
+
+div.project {
+	margin-top: 30px;
+	height: 150px;
+	transition: all 0.5s;
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	overflow: hidden;
+}
+
+div.project p {
+	color: white;
+}
+
+div.project a {
+	color: white;
+	font-size: 150%;
+}
+
+div.project img {
+	height: 130px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+div.project h3 {
+	float: right;
+	margin-right: 3vw;
+	position: relative;
+	top: 20%;
+	transform: translateY(-20%);
+	color: white;
+	font-size: 200%;
+	width: 49vw;
+}
+
+div.popup {
+	margin-right: 3vw;
+	margin-left: 10vw;
+	display: none;
+	float: right;
+	width: 35vw;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.logbox {
+	background-color: #240034;
+}
+
+div.revrad {
+	background-color: black;
+}
+
+div.drwho {
+	background-color: #012c4b;
+}
+
+div.drwho img {
+	padding-left: 20px;
+}
+
+/*div.logbox:hover {
+	transform: scale(1.05);
+}*/
+
+div.footer {
+	background: #222;
+	color: white;
+	outline: 1px solid #555;
+	font-weight: 200;
+	height: 25px;
+	position: absolute;
+	width: 100vw;
+	max-width: 100%;
+	-webkit-box-shadow: 0px -5px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px -5px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px -5px 15px 0px rgba(0,0,0,0.5);
+}
+
+div.footer footer {
+	overflow: hidden;
+}
+
+div.footer a {
+	font-size: 120%;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alfie England</title>
+    <link rel="stylesheet" type='text/css' href='css.css'/>
+    <link rel="shortcut icon" href = "img/favicon.png">
+    <script src="jquery.js"></script>
+  </head>
+
+<body>
+  <div id="header">
+    <div id="banner">
+      <img id="bannerimage" src="img/background.jpeg">
+    </div>
+    <div id="bannertext">
+      <img id="alfieengland" src="img/text.png">
+      <a href="#scrollpoint"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="about">
+        <h1>Alfie England <b>-</b> Student <b>-</b> Software Engineering</h1>
+        <p>I am an aspiring software engineer and web developer currently studying Computing (Software Engineering) at Northampton University, I'm quite knowledgable in HTML5, CSS3, Javascript and am working to expand my ability with C-based languages.<p>
+      </div>
+      <div class="projects">
+        <h2 id="projectsheading">Projects/Websites</h2>
+        <a href="http://logbox.bitbucket.org/">
+          <div class="project logbox">
+            <img src="img/logboxlogo.png"></img>
+            <h3><br>LogBox Website</h3>
+            <div class="popup"><p>A website created for the LogBox YouTube channel containing info about the LogBox and its members as well as having screenshots and videos. Built on Bootstrap version v3.3.5<p></div>
+          </div>
+        </a>
+        <a href="revolutionradio/countdown.html">
+          <div class="project revrad">
+            <img src="img/revrad.png"></img>
+            <h3><br>Revolution Radio Countdown</h3>
+            <div class="popup"><p>A countdown timer created in anticipation of the release date of Green Day's New album 'Revolution Radio'.<p></div>
+          </div>
+        </a>
+        <a href="drwho/wallpaper.html">
+          <div class="project drwho">
+            <img src="img/drwho.png"></img>
+            <h3><br>Doctor Who Wallpaper Viewer</h3>
+            <div class="popup"><p>A simple page to view different variations of Doctor Who wallpapers created by me.<p></div>
+          </div>
+        </a>
+        <script>
+        var time = 150;
+        $( ".logbox" ).hover(
+          function() {
+            $('.projects').stop();
+            $('.logbox h3').fadeOut(time);
+            $('.popup').delay(time).fadeIn(time);
+          }, function() {
+            $('.popup').fadeOut(time);
+            $('.logbox h3').delay(time).fadeIn(time);
+          }
+        );
+        $( ".revrad" ).hover(
+          function() {
+            $('.projects').stop();
+            $('.revrad h3').fadeOut(time);
+            $('.popup').delay(time).fadeIn(time);
+          }, function() {
+            $('.popup').fadeOut(time);
+            $('.revrad h3').delay(time).fadeIn(time);
+          }
+        );
+        $( ".drwho" ).hover(
+          function() {
+            $('.projects').stop();
+            $('.drwho h3').fadeOut(time);
+            $('.popup').delay(time).fadeIn(time);
+          }, function() {
+            $('.popup').fadeOut(time);
+            $('.drwho h3').delay(time).fadeIn(time);
+          }
+        );
+        </script>
+      </div>
+    </div>
+    <div id ="scrollpoint"></div>
+  </div>
+  <div class="footer">
+    <footer><a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i> Return to Top</a></footer>
+  </div>
+</body>
+</html>
+
+<!--
+Script to smooth the transition of linking to another part of the page
+(used for scrolling down the page with arrow links)
+-->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 700);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+<!--Allows the use of fontawesome Icons-->
+<script src="https://use.fontawesome.com/102e1c92e1.js"></script>
