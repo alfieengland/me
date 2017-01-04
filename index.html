@@ -32,11 +32,11 @@
             <div class="popup"><p>A website created for the LogBox YouTube channel containing info about the LogBox and its members as well as having screenshots and videos. Built on Bootstrap version v3.3.5</p></div>
           </div>
         </a>
-        <a href="revolutionradio/countdown.html">
-          <div class="project revrad">
-            <img src="img/revrad.png">
-            <h3><br>Revolution Radio Countdown</h3>
-            <div class="popup"><p>A countdown timer created in anticipation of the release date of Green Day's New album 'Revolution Radio'.</p></div>
+        <a href="https://alfieengland.github.io/download-fest-paris-countdown/">
+          <div class="project download">
+            <img src="img/dlfrance2017-logo.png">
+            <h3><br>Download Paris Countdown</h3>
+            <div class="popup"><p>A countdown timer page created in anticipation of the Download Festival Paris 2017.</p></div>
           </div>
         </a>
         <a href="drwho/wallpaper.html">
@@ -47,7 +47,7 @@
           </div>
         </a>
         <script>
-        var time = 150;
+        var time = 75;
         $( ".logbox" ).hover(
           function() {
             $('.projects').stop();
@@ -58,14 +58,14 @@
             $('.logbox h3').delay(time).fadeIn(time);
           }
         );
-        $( ".revrad" ).hover(
+        $( ".download" ).hover(
           function() {
             $('.projects').stop();
-            $('.revrad h3').fadeOut(time);
+            $('.download h3').fadeOut(time);
             $('.popup').delay(time).fadeIn(time);
           }, function() {
             $('.popup').fadeOut(time);
-            $('.revrad h3').delay(time).fadeIn(time);
+            $('.download h3').delay(time).fadeIn(time);
           }
         );
         $( ".drwho" ).hover(

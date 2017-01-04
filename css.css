@@ -130,12 +130,13 @@ div.logbox {
 	background-color: #240034;
 }
 
-div.revrad {
+div.download {
 	background-color: black;
 }
 
 div.drwho {
 	background-color: #012c4b;
+	/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */display: none;
 }
 
 div.drwho img {
