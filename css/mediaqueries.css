@@ -1,0 +1,15 @@
+@media screen and (min-width: 1000px) {
+  .content {
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+  .logbox img {
+  	margin-left: 58px;
+  }
+}
+
+@media screen and (min-width: 1528px) {
+  .projects h3 {
+    width: 49vw;
+  }
+}

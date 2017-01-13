@@ -123,7 +123,7 @@
 	transform: translateY(-20%);
 	color: white;
 	font-size: 200%;
-	width: 49vw;
+	width: 40vw;
 }
 
 .popup {
@@ -141,12 +141,9 @@
 	background-color: #240034;
 }
 
-.logbox img {
-	margin-left: 58px;
-}
-
 .download {
 	background-color: black;
+	margin-bottom: 30px;
 }
 
 .drwho {
