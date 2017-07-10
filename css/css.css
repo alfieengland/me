@@ -71,20 +71,30 @@
 }
 
 .aboutme {
-	display: flex;
-	justify-content: space-between;
+	/* Disabled these rules when "aboutme" heading formatting was changed to be on 2 lines rather than spaced out over one */
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	line-height: 3em;
 }
 
 .about {
 	padding-top: 50px;
 }
 
+.about h1 {
+	font-size: 250%;
+	font-weight: 400;
+}
+
 .about p {
 	font-size: 120%;
+	line-height: 1.5em;
 }
 
 #projectsheading {
 	padding-top: 50px;
+	font-size: 200%;
+	font-weight: 400;
 }
 
 .project {
