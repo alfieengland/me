@@ -70,13 +70,6 @@
 	font-size: 100%;
 }
 
-.aboutme {
-	/* Disabled these rules when "aboutme" heading formatting was changed to be on 2 lines rather than spaced out over one */
-	/*display: flex;*/
-	/*justify-content: space-between;*/
-	line-height: 3em;
-}
-
 .about {
 	padding-top: 50px;
 }
@@ -89,6 +82,31 @@
 .about p {
 	font-size: 120%;
 	line-height: 1.5em;
+}
+
+.aboutme {
+	/* Disabled these rules when "aboutme" heading formatting was changed to be on 2 lines rather than spaced out over one */
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	line-height: 3em;
+}
+
+.social {
+	text-align: center;
+}
+
+.social a {
+	text-decoration: none;
+	color: #666;
+}
+
+.social img {
+	transition: 0.2s all;
+	transform: scale(0.8);
+}
+
+.social img:hover {
+	transform: scale(1);
 }
 
 #projectsheading {
