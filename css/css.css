@@ -174,19 +174,6 @@
 	margin-bottom: 30px;
 }
 
-.drwho {
-	background-color: #012c4b;
-	/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */display: none;
-}
-
-.drwho img {
-	padding-left: 20px;
-}
-
-/*div.logbox:hover {
-	transform: scale(1.05);
-}*/
-
 .returntotop {
 	text-align: center;
 	margin-top: auto;
