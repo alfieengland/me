@@ -9,20 +9,14 @@
   </head>
 
 <body>
-  <div id="header">
-    <div id="banner">
-      <img id="bannerimage" src="img/background.jpg">
-    </div>
-    <div id="bannertext">
-      <img id="alfieengland" src="img/text.png">
-      <a href="#scrollpoint"><img src="img/arrowdown.png" alt="Down Arrow"></a>
-    </div>
-  </div>
   <div class="container">
     <div class="content">
+      <div id="header">
+        <img class="avatar" src="img/avatar.png" alt="AE Avatar">
+      </div>
       <div class="about">
-        <div class="aboutme"><h1>Alfie England</h1>
-          <h1>Software Engineering Student</h1>
+        <div class="aboutme"><h1 class="">Alfie England</h1>
+          <h1 class="title">Software Engineering Student</h1>
           <p>I am an aspiring software engineer and web developer currently studying BSc Computing (Software Engineering) at the University of Northampton.<br>I'm quite knowledgeable with HTML5 and CSS3 and working to expand my knowledge with Java and Javascript.<br>When I'm not coding I love to listen to and play music (Guitar/Bass/Drums) as well as enjoying video games.</p>
         </div>
       </div>
@@ -68,37 +62,15 @@
         </script>
       </div>-->
       <div class="social">
-        <a href="https://github.com/alfieengland/"><img src="img/github-mark.png" alt="github-logo"><br>My GitHub</a>
-      </div>
-      <div class="returntotop">
-        <a href="#header"><img src="img/arrowupdark.png" alt="Up Arrow"></a>
+        <h2>Social</h2>
+        <a href="https://github.com/alfieengland/"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+        <a href="mailto:alfieenglandenquiries@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/alfieengland11/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
       </div>
     </div>
-    <div id ="scrollpoint"></div>
   </div>
 </body>
 </html>
-
-<!--
-Script to smooth the transition of linking to another part of the page
-(used for scrolling down the page with arrow links)
--->
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 700);
-        return false;
-      }
-    }
-  });
-});
-</script>
 
 <!--Allows the use of fontawesome Icons-->
 <script src="https://use.fontawesome.com/102e1c92e1.js"></script>

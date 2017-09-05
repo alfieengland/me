@@ -8,6 +8,13 @@
   }
 }
 
+@media screen and (max-height: 650px) {
+  .about h1 {
+    display: none;
+  }
+}
+
+
 @media screen and (min-width: 1528px) {
   .projects h3 {
     width: 49vw;

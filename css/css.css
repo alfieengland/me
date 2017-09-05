@@ -7,44 +7,19 @@
 }
 
 #header {
-	background-color: #030204;
-	position: relative;
-	overflow: hidden;
-	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-}
-
-#banner {
-	height: 100vh;
-	overflow: hidden;
-	position: absolute;
-}
-
-#bannertext {
-	position: relative;
-	height: 100vh;
 	text-align: center;
-	color: white;
+	position: relative;
+	overflow: hidden;
+	/*-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);*/
 }
 
-#bannertext a {
-	color: white;
-	display: block;
-	margin-top: 18vh;
-	padding-top: 4vh;
-	padding-bottom: 4vh;
-	font-size: 200%;
-	transition: all 0.2s;
-}
-
-#bannertext a:hover {
-	transform: translateY(16px);;
-}
-
-#alfieengland {
-	margin-top: 42vh;
-	width: 70%;
+.avatar {
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	height: 14vh;
+	min-height: 120px;
 }
 
 .content {
@@ -54,10 +29,12 @@
 	color: #666;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .content h1, h2 {
-	font-weight: 300;
+	font-size: 250%;
+	font-weight: 400;
 }
 
 .content h3 {
@@ -70,43 +47,30 @@
 	font-size: 100%;
 }
 
-.about {
-	padding-top: 50px;
-}
-
-.about h1 {
-	font-size: 250%;
-	font-weight: 400;
-}
-
 .about p {
 	font-size: 120%;
 	line-height: 1.5em;
 }
 
-.aboutme {
-	/* Disabled these rules when "aboutme" heading formatting was changed to be on 2 lines rather than spaced out over one */
-	/*display: flex;*/
-	/*justify-content: space-between;*/
-	line-height: 3em;
+.title {
+	margin-bottom: 3vh;
 }
 
 .social {
 	text-align: center;
+	margin-top: 6vh;
 }
 
 .social a {
 	text-decoration: none;
-	color: #666;
-}
-
-.social img {
+	color: #000;
 	transition: 0.2s all;
-	transform: scale(0.8);
+	margin-left: 3vw;
+	margin-right: 3vw;
 }
 
-.social img:hover {
-	transform: scale(1);
+.social a:hover {
+	color: #444;
 }
 
 #projectsheading {
@@ -172,18 +136,4 @@
 .download {
 	background-color: black;
 	margin-bottom: 30px;
-}
-
-.returntotop {
-	text-align: center;
-	margin-top: auto;
-	margin-bottom: 10px;
-}
-
-.returntotop img {
-	transition: all 0.2s;
-}
-
-.returntotop img:hover {
-	transform: translateY(-10px);
 }
