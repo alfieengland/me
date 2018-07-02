@@ -20,3 +20,11 @@
     width: 49vw;
   }
 }
+
+@media (max-resolution: 1dppx) {
+    .content {
+      font-size: 100%;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+}
