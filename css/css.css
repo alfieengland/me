@@ -23,7 +23,7 @@
 	height: 100vh;
 	margin-left: 4vw;
 	margin-right: 4vw;
-	color: #666;
+	color: #555;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -61,12 +61,17 @@
 
 .social a {
 	text-decoration: none;
-	color: #000;
-	transition: 0.2s all;
+	color: #555;
+	transition: 0.1s all;
 	margin-left: 3vw;
 	margin-right: 3vw;
 }
 
-.social a:hover {
-	color: #444;
+.social i {
+	transition: 0.28s all;
+}
+
+.social i:hover {
+	transform: scale(1.2);
+	color: #333;
 }
