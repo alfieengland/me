@@ -10,9 +10,6 @@
 	text-align: center;
 	position: relative;
 	overflow: hidden;
-	/*-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);*/
 }
 
 .avatar {
@@ -72,69 +69,4 @@
 
 .social a:hover {
 	color: #444;
-}
-
-#projectsheading {
-	padding-top: 50px;
-	font-size: 200%;
-	font-weight: 400;
-}
-
-.project {
-	margin-top: 30px;
-	height: 150px;
-	transition: all 0.5s;
-	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-	overflow: hidden;
-}
-
-.project p {
-	color: white;
-}
-
-.project a {
-	color: white;
-	font-size: 150%;
-}
-
-.project img {
-	height: 130px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	margin-bottom: 10px;
-	margin-left: 10px;
-}
-
-.project h3 {
-	float: right;
-	margin-right: 3vw;
-	position: relative;
-	top: 20%;
-	transform: translateY(-20%);
-	color: white;
-	font-size: 200%;
-	width: 40vw;
-}
-
-.popup {
-	margin-right: 3vw;
-	margin-left: 10vw;
-	display: none;
-	float: right;
-	width: 35vw;
-	position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.logbox {
-	background-color: #240034;
-}
-
-.download {
-	background-color: black;
-	margin-bottom: 30px;
 }
