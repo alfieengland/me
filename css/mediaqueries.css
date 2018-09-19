@@ -1,7 +1,7 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
   .content {
-    margin-left: 16vw;
-    margin-right: 16vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
   }
 }
 
@@ -14,7 +14,7 @@
 @media (max-resolution: 1dppx) {
     .content {
       font-size: 100%;
-      margin-left: 10vw;
-      margin-right: 10vw;
+      /*margin-left: 10vw;
+      margin-right: 10vw;*/
     }
 }
